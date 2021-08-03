@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    text-align: center;
+    color: #B9D9EB;
+    margin-bottom: 3rem;
+}
+
+label, span, button {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #f0f8ff;
+}
+
+body {
+    background: linear-gradient(160deg, #0f0202, #24a3be) no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+section.illustration {
+    align-self: flex-end;
+}
+
+section.illustration .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg, #f0f8ff, #B9D9EB);
+    clip-path: circle(60% at left 96%);
+}
+
+main.container {
+    align-self: center;
+}
+
+main .social-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .social-field img {
+    padding: 0 1.5rem;   
+}
+
+main .alternative span {
+    position: relative;
+    padding: 1rem 0 1.5rem 0;
+    text-align: center;
+    display: block;
+}
+
+main .alternative span::before, .alternative span::after {
+    content: '';
+    position: absolute;
+    width: 8rem;
+    height: .1rem;
+    bottom: 50%;
+    right: 3rem;
+    background: #f0f8ff;
+}
+
+main .alternative span::after {
+    left: 3rem;
+}
+
+main form .input-field {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+main .input-field label {
+    padding-bottom: .8rem;
+}
+
+main .input-field input {
+    padding: 1rem 0 1rem .5rem;
+    background: #0f0202a1;
+    color: #ffffff;
+    outline: 0;
+    border: .1rem solid #0F0202;
+    border-radius: .5rem;
+}
+
+main .input-field input:hover {
+    border-color: #f0f8ff;
+}
+
+main .footer label {
+    font-size: 1.4rem;
+    padding-left: .3rem;
+}
+
+main .footer button {
+    padding: 1.5rem 2.5rem;
+    margin: 3.5rem auto;
+    border-radius: 1rem;
+    background: #0F0202;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .footer button:hover {
+    letter-spacing: .1rem;
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
+    section.illustration .circle {
+        clip-path: circle(55% at left 100%);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        justify-content: center;
+    }
+ 
+    section.illustration {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+    main.container {
+        margin: 0 2rem;
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <section class="illustration">
+        <img src="./assets/urban-tech-support-1.png" alt="Urban tech illustration" loading="lazy">
+        <div class="circle"></div>
+    </section>
+
+    <main class="container">
+        <h1>Create Account</h1>
+        
+        <div class="social-field">
+            <a href="#">
+                <img src="https://img.icons8.com/color/32/000000/google-logo.png" alt="Google logo"/>
+            </a>
+            <a href="#">
+                <img src="https://img.icons8.com/color/40/000000/facebook.png" alt="Facebook logo"/>
+            </a>
+            <a href="#">
+                <img src="https://img.icons8.com/color/40/000000/linkedin.png" alt="Linkedin logo"/>
+            </a>
+        </div>
+
+        <div class="alternative">
+            <span>Or</span>
+        </div>
+        
+        <form action="">
+            <div class="input-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" title="Your name" autocomplete="name" required>
+            </div>
+        
+            <div class="input-field">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" title="Your e-mail" autocomplete="email" required>
+            </div>
+        
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" title="Create a password" required>
+            </div>
+
+            <div class="footer">
+                <input type="checkbox" name="checkbox" id="checkbox" required>
+                <label for="checkbox">I agree to the Terms & Conditions</label>
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
