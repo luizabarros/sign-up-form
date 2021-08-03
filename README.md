@@ -3,10 +3,10 @@
 This is a simple and responsive sign up form made with HTML and CSS. <br/>
 
 ### Final Result
-<img src="assets/final-version.png" alt="Web Version"/>
+<img src="assets/desktop.png" alt="Web Version"/>
 
 ### Mobile Version
-<img src="assets/final-mobile.png" alt="Mobile Version"/>
+<img src="assets/mobile.png" alt="Mobile Version"/>
 
 ## 🚀 Starting
 
