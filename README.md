@@ -14,3 +14,4 @@ To start the project, just open the file `index.html` in your preferred browser.
 
 ---
 ##### Layout inspired by giovannamoeller's layout.
+https://github.com/giovannamoeller/sign-up-form
